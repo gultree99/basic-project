@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource name="jdbc/insadb"
+              auth="Container"
+              type="javax.sql.DataSource"
+              factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+              maxTotal="100"
+              maxIdle="30"
+              maxWaitMillis="10000"
+              username="goodpf"
+              password="Goodplf@994!"
+              driverClassName="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"
+              validationQuery="SELECT 1 FROM DUAL"
+              testOnBorrow="true"
+              url="jdbc:log4jdbc:mariadb://192.168.0.151:3939/stellar?autoReconnect=true"/>
+</Context>

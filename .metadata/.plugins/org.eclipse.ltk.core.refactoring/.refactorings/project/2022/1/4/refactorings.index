@@ -1,0 +1,13 @@
+1642567115138	Delete element
+1642568228579	Rename package 'goodplatform.insa.annotation'
+1642568244151	Rename package 'goodplatform.insa.aop'
+1642568262755	Copy compilation unit
+1642568266353	Delete element
+1642568274108	Rename package 'goodplatform.insa.filter'
+1642568277163	Rename package 'goodplatform.insa.interceptor'
+1642568280176	Rename package 'goodplatform.insa.mapper'
+1642568283353	Rename package 'goodplatform.insa.model'
+1642568286113	Rename package 'goodplatform.insa.security'
+1642568288745	Rename package 'goodplatform.insa.service'
+1642568291329	Rename package 'goodplatform.insa.tld'
+1642568294971	Rename package 'goodplatform.insa.util'
