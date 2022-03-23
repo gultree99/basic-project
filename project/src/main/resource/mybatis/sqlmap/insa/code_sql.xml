@@ -4,16 +4,7 @@
 <mapper namespace="com.goodplatform.insa.mapper.CodeMapper">
     <select id="selectCodeList" resultType="hashmap" parameterType="hashmap">
         SELECT
-        PRT_CD
-        ,PRT_NM
-        ,CD
-        ,NM
-        ,DISP_ORD
-        ,USE_YN
-        ,YR
-        ,TERM
-        FROM TB_CODE
-        WHERE 1=1
-        ORDER BY YR,TERM,PRT_CD,DISP_ORD
+       	USER_ID,USER_PWD
+        FROM TB_USER
     </select>
 </mapper>

@@ -7,10 +7,12 @@
               maxTotal="100"
               maxIdle="30"
               maxWaitMillis="10000"
-              username="goodpf"
-              password="Goodplf@994!"
+              username="insa"
+              password="swell@9941"
               driverClassName="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"
-              validationQuery="SELECT 1 FROM DUAL"
+              validationQuery="SELECT 1"
               testOnBorrow="true"
-              url="jdbc:log4jdbc:mariadb://192.168.0.151:3939/stellar?autoReconnect=true"/>
+              url="jdbc:log4jdbc:sqlserver://192.168.0.7:1433;DatabaseName=insa"/>
 </Context>
+
+       

@@ -153,7 +153,7 @@
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
       <Context docBase="D:\workspace\insa\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\project" path="" reloadable="true" source="org.eclipse.jst.jee.server:project">
-<Resource auth="Container" driverClassName="net.sf.log4jdbc.sql.jdbcapi.DriverSpy" factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/insadb" password="Goodplf@994!" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:log4jdbc:mariadb://192.168.0.151:3939/stellar?autoReconnect=true" username="goodpf" validationQuery="SELECT 1 FROM DUAL"/>
+<Resource auth="Container" driverClassName="net.sf.log4jdbc.sql.jdbcapi.DriverSpy" factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/insadb" password="swell@9941" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:log4jdbc:sqlserver://192.168.0.7:1433;DatabaseName=insa" username="insa" validationQuery="SELECT 1"/>
 </Context></Host>
     </Engine>
   </Service>
